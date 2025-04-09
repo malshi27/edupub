@@ -1,0 +1,30 @@
+.navbar {
+    background-color: transparent; /* Make the background transparent */
+    padding: 23px 0;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin: 0 20px;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    position: relative; /* Ensure the lines are positioned correctly */
+}
+
+.navbar li:not(:last-child) {
+    border-right: 2px solid rgb(151, 151, 151); /* Add vertical line between links */
+    padding-right: 20px; /* Adjust spacing for the line */
+}
+
+.navbar li:hover {
+    text-decoration: underline;
+}

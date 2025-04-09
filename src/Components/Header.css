@@ -1,0 +1,52 @@
+.navbar-container {
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.org-name p {
+  margin: 0;
+  font-size: 12px;
+}
+
+.right-section {
+  text-align: right;
+}
+
+.lang-links {
+  font-size: 12px;
+}
+
+.hotline {
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background-color: #1f1f1f;
+  padding: 10px;
+  margin: 0;
+  color: white;
+}
